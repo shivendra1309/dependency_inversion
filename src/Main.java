@@ -6,8 +6,6 @@ public class Main {
 
         PaymentGateway stripePaymentGateway = new StripePaymentGateway();
         PaymentProcessor paymentProcessor1 = new PaymentProcessor(stripePaymentGateway);
-        paymentProcessor1.processPayment(532.21, "569874");
-
-
+        paymentProcessor1.processPayment(532.21, "56987445");
     }
 }
